@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap');
+
+body{
+  font-family: 'Space Grotesk', sans-serif;
+  background: #151515;
+}
+body::-webkit-scrollbar{
+  width: 0;
+}
+.head{
+  width: 100%;
+  background-image: url(/img/aylana-1.svg);
+  background-repeat: no-repeat;
+  background-position: left 133px;
+}
+.head .header{
+  background-image: url(/img/profil-img.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  padding-bottom: 70px;
+  margin-bottom: 104px;
+}
+.container{
+  max-width: 1110px;
+  margin: 0 auto;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 127px;
+  flex-wrap: wrap;
+}
+header span{
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: -0.444444px;
+  color: #FFFFFF;
+}
+header nav{
+  width: 192.5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head .header .header__about{
+  display: flex;
+  flex-direction: column;
+}
+.head .header .header__about .about{
+  max-width: 706px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 43px;
+  margin-bottom: 20px;
+}
+.head .header .header__about .about h1{
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 88px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+  margin: 0;
+}
+.head .header .header__about .about h1 span{
+  text-decoration: underline #4EE1A0;;
+}
+.head .header .header__about .about p{
+  max-width: 445px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #D9D9D9;
+  margin: 0;
+}
+.head .header .header__about .button__circle{
+  display: flex;
+  column-gap: 465px;
+  align-items: center;
+}
+.btn{
+  background: #131313;
+  padding: 0 3px 12px 0;
+  border: 0;
+  border-bottom: 2px solid #4EE1A0;;
+}
+a{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.28571px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+a:hover{
+  color: #4EE1A0;
+}
+.head .header .header__about .button__circle .circle{
+  width: 129px;
+  height: 129px;
+  border-radius: 100%;
+  box-sizing: border-box;
+  border: 1px solid #FFFFFF;
+}
